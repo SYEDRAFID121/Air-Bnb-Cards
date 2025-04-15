@@ -1,0 +1,78 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #e3d4d4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+
+.card-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: none;
+    gap: 20px;
+    max-height: max-content;
+    max-width: max-content;
+    margin-top: 20px;
+    
+    
+} 
+.cards {
+    border: none;
+    height: 380px;
+    width: 280px;
+    border-radius: 30px;
+
+}
+
+
+.card-img {
+    border: none;
+    border-radius: 30px;
+
+}
+
+.card-para {
+    display: flex;
+    flex-direction: column;
+    line-height: 23px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+    width: 150px;
+
+}
+
+.city-para {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.para {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.value {
+    display: flex;
+    margin-top: 7px;
+
+
+}
+
+.star {
+    margin-right: 4px;
+    margin-top: 3px;
+}
+
+.stay-para {
+    color: gray;
+
+}
